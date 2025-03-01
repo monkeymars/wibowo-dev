@@ -14,7 +14,7 @@ export default function Home() {
   );
 }
 
-export function Profile() {
+function Profile() {
   return (
     <section className="bg-transparent px-6 lg:px-8">
       <figure className="mx-auto max-w-2xl">
@@ -102,7 +102,7 @@ const profiles = [
   },
 ];
 
-export function List() {
+function List() {
   return (
     <div className="flow-root">
       <ul role="list" className="">
