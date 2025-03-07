@@ -22,9 +22,9 @@ function Profile() {
         <div className="flex gap-x-1 text-indigo-600"></div>
         <blockquote className="mt-10 text-lg font-semibold tracking-tight text-gray-900 sm:text-2xl/9">
           <p className="text-white">
-            “Be aware that you tend to overestimate your knowledge. Be skeptical of predictions, especially if they come
-            from so-called experts. And with all plans, favor the pessimistic scenario. This way, you have a chance of
-            judging the situation somewhat realistically.”
+            “Be aware that you tend to overestimate your knowledge. Be skeptical of predictions, especially if
+            they come from so-called experts. And with all plans, favor the pessimistic scenario. This way,
+            you have a chance of judging the situation somewhat realistically.”
           </p>
           <p className="text-sm text-white italic mt-4">
             Rolf Dobelli. The Art of Thinking Clearly (p. 45). HarperCollins. Kindle Edition.
@@ -89,8 +89,9 @@ const profiles = [
     platform: "Frasa.io",
     username: "Gery Wibowo",
     href: "https://frasa.io/",
-    imageUrl: "https://frasa.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrasa-logo-black.e7d3826f.png&w=1080&q=75",
-    description: "Founder of Frasa.io",
+    imageUrl:
+      "https://frasa.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrasa-logo-black.e7d3826f.png&w=1080&q=75",
+    description: "Frasa.io",
   },
   {
     id: 6,
